@@ -1,0 +1,40 @@
+.clients-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.clients-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 980px;
+}
+
+.client-middle {
+    width: 90%;
+    text-align: center;
+}
+
+.client {
+    width: inherit;
+}
+
+.client img {
+    width: inherit;
+}
+
+.client p {
+    text-align: justify;
+}
+
+@media (max-width: 768px) { 
+    .clients-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .client-middle {
+        width: 100%;
+    }
+}

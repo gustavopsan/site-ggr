@@ -1,0 +1,26 @@
+/* Home Content */
+
+.client-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.client-wrapper section {
+    max-width: 980px;
+}
+
+.client-wrapper section p {
+    text-align: justify;
+}
+
+.img-destaque {
+    width: 600px;
+}
+
+@media (max-width: 768px) { 
+    .img-destaque {
+        width: 100%;
+    }
+}

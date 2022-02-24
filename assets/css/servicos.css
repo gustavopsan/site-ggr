@@ -1,0 +1,30 @@
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 980px;
+}
+
+.services-middle {
+    width: 90%;
+}
+
+.middle-img {
+    width: inherit;
+}
+
+.services-right-content {
+    text-align: justify;
+}
+
+@media (max-width: 768px) { 
+    .services-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
