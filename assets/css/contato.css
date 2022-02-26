@@ -35,6 +35,26 @@
     min-height: 70px;
 }
 
+.response-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#form-response {
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;  
+}
+
+.success {
+    background-color: #52c465;
+}
+
+.error {
+    background-color: #ff5252;
+}
+
 @media (max-width: 768px) { 
     .contact-wrapper {
         flex-direction: column;

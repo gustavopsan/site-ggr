@@ -54,7 +54,7 @@
 				</div>
 				<div class="contact-middle contact-right-content">
 					<h2>Envie sua mensagem</h2>
-					<form action="" onsubmit="console.log('form')">
+					<form method="post" id="form-contact" onsubmit="return false">
 						<label for="nome">Seu nome</label />
 						<input type="text" name="nome" id="nome" />
 						<label for="email">Seu e-mail</label>
@@ -65,7 +65,10 @@
 						<textarea name="mensagem" id="mensagem">Olá, Estou interessado(a) nos serviços informados pelo seu site! Por favor, entre em contato comigo!</textarea />
 						<input type="submit" class="button" name="enviar" value="Enviar mensagem &raquo;" />
 					</form>
-					
+
+					<div class="response-container">
+						<span id="form-response" hidden>Email enviado com sucesso!</span>
+					</div>
 				</div>	
 
 			</section>
@@ -107,5 +110,7 @@
 				<span>(Website fictício criado como trabalho acadêmico) &copy; 2022 Raffael Araújo, Gustavo P. Santana, Vinicios Gabriel</span>						
 			</div>
 		</footer>
+
+		<script src="../assets/js/mailSubmit.js"></script>
 	</body>
 </HTML>
