@@ -21,6 +21,7 @@ form.addEventListener("submit", function(e) {
           mode: "cors",
           headers: {
             'Accept': 'application/json',
+            'Access-Control-Allow-Origin': '*',
             'Content-Type': 'application/json; charset=UTF-8'
           },
           body: JSON.stringify({
